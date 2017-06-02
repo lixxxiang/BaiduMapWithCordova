@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2311FE0032CEBC8DEDE61FAD /* libPods-testIOS2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C4C0DA4649B902842FF85 /* libPods-testIOS2UITests.a */; };
+		6BB713445406C5E948BA27FB /* libPods-testIOS2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2A337BA6FE36FD70ABCAFB /* libPods-testIOS2Tests.a */; };
 		9489B0251EC2942B0089CDF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0241EC2942B0089CDF6 /* main.m */; };
-		9489B0281EC2942B0089CDF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0271EC2942B0089CDF6 /* AppDelegate.m */; };
+		9489B0281EC2942B0089CDF6 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0271EC2942B0089CDF6 /* AppDelegate.mm */; };
 		9489B02B1EC2942B0089CDF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B02A1EC2942B0089CDF6 /* ViewController.m */; };
 		9489B02E1EC2942B0089CDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9489B02C1EC2942B0089CDF6 /* Main.storyboard */; };
 		9489B0301EC2942B0089CDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9489B02F1EC2942B0089CDF6 /* Assets.xcassets */; };
 		9489B0331EC2942B0089CDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9489B0311EC2942B0089CDF6 /* LaunchScreen.storyboard */; };
 		9489B03E1EC2942B0089CDF6 /* testIOS2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B03D1EC2942B0089CDF6 /* testIOS2Tests.m */; };
 		9489B0491EC2942B0089CDF6 /* testIOS2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0481EC2942B0089CDF6 /* testIOS2UITests.m */; };
+		9489B0601EC29C580089CDF6 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9489B05B1EC297D40089CDF6 /* libcrypto.a */; };
+		9489B0611EC29C580089CDF6 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9489B05C1EC297D40089CDF6 /* libssl.a */; };
+		9489B0641EC29D460089CDF6 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9489B0631EC29D460089CDF6 /* mapapi.bundle */; };
+		9489B06E1EC29DC10089CDF6 /* BMKClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0671EC29DC10089CDF6 /* BMKClusterAlgorithm.m */; };
+		9489B06F1EC29DC10089CDF6 /* BMKClusterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0691EC29DC10089CDF6 /* BMKClusterItem.m */; };
+		9489B0701EC29DC10089CDF6 /* BMKClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B06B1EC29DC10089CDF6 /* BMKClusterManager.m */; };
+		9489B0711EC29DC10089CDF6 /* BMKClusterQuadtree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B06D1EC29DC10089CDF6 /* BMKClusterQuadtree.m */; };
+		9489B0FE1EC2CEE10089CDF6 /* UpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0FD1EC2CEE10089CDF6 /* UpView.m */; };
+		9489B1001EC2CF230089CDF6 /* UpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9489B0FF1EC2CF230089CDF6 /* UpView.xib */; };
+		9489B1081EC2E29A0089CDF6 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 9489B1071EC2E29A0089CDF6 /* www */; };
+		9489B1141EC2E39A0089CDF6 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9489B1131EC2E39A0089CDF6 /* config.xml */; };
+		9489B1171EC2E4070089CDF6 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9489B1121EC2E2B00089CDF6 /* libCordova.a */; };
+		9489B1191EC2E4110089CDF6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9489B1181EC2E4110089CDF6 /* MobileCoreServices.framework */; };
+		9489B11B1EC2E41A0089CDF6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9489B11A1EC2E41A0089CDF6 /* AssetsLibrary.framework */; };
+		9489B11F1EC2E4490089CDF6 /* CordovaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B11D1EC2E4490089CDF6 /* CordovaViewController.m */; };
+		9489B1201EC2E4490089CDF6 /* CordovaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9489B11E1EC2E4490089CDF6 /* CordovaViewController.xib */; };
+		9493AA1B1EDF7CAF00366036 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA1A1EDF7CAF00366036 /* SWRevealViewController.m */; };
+		9493AA1E1EDF7EBE00366036 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493AA1C1EDF7EBE00366036 /* reveal-icon.png */; };
+		9493AA1F1EDF7EBE00366036 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493AA1D1EDF7EBE00366036 /* reveal-icon@2x.png */; };
+		9493AA231EDF85F900366036 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9493AA211EDF85F900366036 /* LeftViewController.m */; };
+		9493AA241EDF85F900366036 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9493AA221EDF85F900366036 /* LeftViewController.xib */; };
+		9493AA721EDF9B6500366036 /* user1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493AA711EDF9B6500366036 /* user1.png */; };
+		9493AA741EDFA1A300366036 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493AA731EDFA1A300366036 /* avatar.png */; };
+		9493AAB51EE0025200366036 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493AAB41EE0025200366036 /* location.png */; };
+		94E809011EDAB4DD00E088FC /* imageView.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E809001EDAB4DD00E088FC /* imageView.png */; };
+		96829B460427F7660CA19A3C /* libPods-testIOS2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 723ED2F12F24289E90694DDF /* libPods-testIOS2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +60,31 @@
 			remoteGlobalIDString = 9489B01F1EC2942B0089CDF6;
 			remoteInfo = testIOS2;
 		};
+		9489B1111EC2E2B00089CDF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9489B1011EC2E2810089CDF6 /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		9489B1151EC2E3EC0089CDF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9489B1011EC2E2810089CDF6 /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		228C94EABC01804FA3B00BEB /* Pods-testIOS2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIOS2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testIOS2Tests/Pods-testIOS2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		290A5835ECDC959A999148E2 /* Pods-testIOS2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIOS2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testIOS2UITests/Pods-testIOS2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5947E8F83D573D0866D76571 /* Pods-testIOS2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIOS2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testIOS2/Pods-testIOS2.debug.xcconfig"; sourceTree = "<group>"; };
+		723ED2F12F24289E90694DDF /* libPods-testIOS2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIOS2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9489B0201EC2942B0089CDF6 /* testIOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testIOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9489B0241EC2942B0089CDF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9489B0261EC2942B0089CDF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9489B0271EC2942B0089CDF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9489B0271EC2942B0089CDF6 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		9489B0291EC2942B0089CDF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9489B02A1EC2942B0089CDF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9489B02D1EC2942B0089CDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +97,46 @@
 		9489B0441EC2942B0089CDF6 /* testIOS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testIOS2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9489B0481EC2942B0089CDF6 /* testIOS2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testIOS2UITests.m; sourceTree = "<group>"; };
 		9489B04A1EC2942B0089CDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9489B0571EC295960089CDF6 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../Desktop/thirdlibs/libcrypto.a; sourceTree = "<group>"; };
+		9489B0581EC295960089CDF6 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../Desktop/thirdlibs/libssl.a; sourceTree = "<group>"; };
+		9489B05B1EC297D40089CDF6 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "../Downloads/BaiduMap_IOSSDK_v3.3.0_All 2/BaiduMap_IOSSDK_v3.3.0_Sample/BMKOCDemo/BaiduMapAPI/thirdlibs/libcrypto.a"; sourceTree = "<group>"; };
+		9489B05C1EC297D40089CDF6 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "../Downloads/BaiduMap_IOSSDK_v3.3.0_All 2/BaiduMap_IOSSDK_v3.3.0_Sample/BMKOCDemo/BaiduMapAPI/thirdlibs/libssl.a"; sourceTree = "<group>"; };
+		9489B0631EC29D460089CDF6 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		9489B0661EC29DC10089CDF6 /* BMKClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterAlgorithm.h; sourceTree = "<group>"; };
+		9489B0671EC29DC10089CDF6 /* BMKClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterAlgorithm.m; sourceTree = "<group>"; };
+		9489B0681EC29DC10089CDF6 /* BMKClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterItem.h; sourceTree = "<group>"; };
+		9489B0691EC29DC10089CDF6 /* BMKClusterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterItem.m; sourceTree = "<group>"; };
+		9489B06A1EC29DC10089CDF6 /* BMKClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterManager.h; sourceTree = "<group>"; };
+		9489B06B1EC29DC10089CDF6 /* BMKClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterManager.m; sourceTree = "<group>"; };
+		9489B06C1EC29DC10089CDF6 /* BMKClusterQuadtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKClusterQuadtree.h; sourceTree = "<group>"; };
+		9489B06D1EC29DC10089CDF6 /* BMKClusterQuadtree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMKClusterQuadtree.m; sourceTree = "<group>"; };
+		9489B0FC1EC2CEE10089CDF6 /* UpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpView.h; path = ../UpView.h; sourceTree = "<group>"; };
+		9489B0FD1EC2CEE10089CDF6 /* UpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpView.m; path = ../UpView.m; sourceTree = "<group>"; };
+		9489B0FF1EC2CF230089CDF6 /* UpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UpView.xib; path = ../UpView.xib; sourceTree = "<group>"; };
+		9489B1011EC2E2810089CDF6 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		9489B1071EC2E29A0089CDF6 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		9489B1131EC2E39A0089CDF6 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		9489B1181EC2E4110089CDF6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9489B11A1EC2E41A0089CDF6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9489B11C1EC2E4490089CDF6 /* CordovaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CordovaViewController.h; path = ../CordovaViewController.h; sourceTree = "<group>"; };
+		9489B11D1EC2E4490089CDF6 /* CordovaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CordovaViewController.m; path = ../CordovaViewController.m; sourceTree = "<group>"; };
+		9489B11E1EC2E4490089CDF6 /* CordovaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CordovaViewController.xib; path = ../CordovaViewController.xib; sourceTree = "<group>"; };
+		9493AA191EDF7CAF00366036 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		9493AA1A1EDF7CAF00366036 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		9493AA1C1EDF7EBE00366036 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		9493AA1D1EDF7EBE00366036 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon@2x.png"; sourceTree = "<group>"; };
+		9493AA201EDF85F900366036 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		9493AA211EDF85F900366036 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		9493AA221EDF85F900366036 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LeftViewController.xib; path = ../LeftViewController.xib; sourceTree = "<group>"; };
+		9493AA711EDF9B6500366036 /* user1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user1.png; sourceTree = "<group>"; };
+		9493AA731EDFA1A300366036 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		9493AAB41EE0025200366036 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		94E809001EDAB4DD00E088FC /* imageView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageView.png; sourceTree = "<group>"; };
+		9AB86FAECCB9CD96871EBD29 /* Pods-testIOS2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIOS2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testIOS2UITests/Pods-testIOS2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA2A337BA6FE36FD70ABCAFB /* libPods-testIOS2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIOS2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D139A5366C439E211C5B7654 /* Pods-testIOS2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIOS2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testIOS2Tests/Pods-testIOS2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E80C4C0DA4649B902842FF85 /* libPods-testIOS2UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIOS2UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE860C24B6FA090D1A5AE87 /* Pods-testIOS2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIOS2.release.xcconfig"; path = "Pods/Target Support Files/Pods-testIOS2/Pods-testIOS2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +144,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9489B11B1EC2E41A0089CDF6 /* AssetsLibrary.framework in Frameworks */,
+				9489B1191EC2E4110089CDF6 /* MobileCoreServices.framework in Frameworks */,
+				9489B1171EC2E4070089CDF6 /* libCordova.a in Frameworks */,
+				9489B0601EC29C580089CDF6 /* libcrypto.a in Frameworks */,
+				9489B0611EC29C580089CDF6 /* libssl.a in Frameworks */,
+				96829B460427F7660CA19A3C /* libPods-testIOS2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB713445406C5E948BA27FB /* libPods-testIOS2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +165,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2311FE0032CEBC8DEDE61FAD /* libPods-testIOS2UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F3EEF1C93C9994DB8DEA58F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5947E8F83D573D0866D76571 /* Pods-testIOS2.debug.xcconfig */,
+				EFE860C24B6FA090D1A5AE87 /* Pods-testIOS2.release.xcconfig */,
+				D139A5366C439E211C5B7654 /* Pods-testIOS2Tests.debug.xcconfig */,
+				228C94EABC01804FA3B00BEB /* Pods-testIOS2Tests.release.xcconfig */,
+				9AB86FAECCB9CD96871EBD29 /* Pods-testIOS2UITests.debug.xcconfig */,
+				290A5835ECDC959A999148E2 /* Pods-testIOS2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9489B0171EC2942B0089CDF6 = {
 			isa = PBXGroup;
 			children = (
+				9489B1131EC2E39A0089CDF6 /* config.xml */,
+				9489B1071EC2E29A0089CDF6 /* www */,
+				9489B0621EC29D460089CDF6 /* Resources */,
 				9489B0221EC2942B0089CDF6 /* testIOS2 */,
 				9489B03C1EC2942B0089CDF6 /* testIOS2Tests */,
 				9489B0471EC2942B0089CDF6 /* testIOS2UITests */,
 				9489B0211EC2942B0089CDF6 /* Products */,
+				9489B0561EC295960089CDF6 /* Frameworks */,
+				5F3EEF1C93C9994DB8DEA58F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +213,20 @@
 		9489B0221EC2942B0089CDF6 /* testIOS2 */ = {
 			isa = PBXGroup;
 			children = (
+				9493AA181EDF7CAF00366036 /* SWRevealViewController */,
+				9489B0651EC29DC10089CDF6 /* Cluster */,
+				9489B1011EC2E2810089CDF6 /* CordovaLib.xcodeproj */,
 				9489B0261EC2942B0089CDF6 /* AppDelegate.h */,
-				9489B0271EC2942B0089CDF6 /* AppDelegate.m */,
+				9489B0271EC2942B0089CDF6 /* AppDelegate.mm */,
+				9489B0FF1EC2CF230089CDF6 /* UpView.xib */,
+				9489B0FC1EC2CEE10089CDF6 /* UpView.h */,
+				9489B0FD1EC2CEE10089CDF6 /* UpView.m */,
+				9493AA201EDF85F900366036 /* LeftViewController.h */,
+				9493AA211EDF85F900366036 /* LeftViewController.m */,
+				9493AA221EDF85F900366036 /* LeftViewController.xib */,
+				9489B11C1EC2E4490089CDF6 /* CordovaViewController.h */,
+				9489B11D1EC2E4490089CDF6 /* CordovaViewController.m */,
+				9489B11E1EC2E4490089CDF6 /* CordovaViewController.xib */,
 				9489B0291EC2942B0089CDF6 /* ViewController.h */,
 				9489B02A1EC2942B0089CDF6 /* ViewController.m */,
 				9489B02C1EC2942B0089CDF6 /* Main.storyboard */,
@@ -117,6 +241,12 @@
 		9489B0231EC2942B0089CDF6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9493AAB41EE0025200366036 /* location.png */,
+				9493AA731EDFA1A300366036 /* avatar.png */,
+				9493AA711EDF9B6500366036 /* user1.png */,
+				9493AA1C1EDF7EBE00366036 /* reveal-icon.png */,
+				9493AA1D1EDF7EBE00366036 /* reveal-icon@2x.png */,
+				94E809001EDAB4DD00E088FC /* imageView.png */,
 				9489B0241EC2942B0089CDF6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +270,64 @@
 			path = testIOS2UITests;
 			sourceTree = "<group>";
 		};
+		9489B0561EC295960089CDF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9489B11A1EC2E41A0089CDF6 /* AssetsLibrary.framework */,
+				9489B1181EC2E4110089CDF6 /* MobileCoreServices.framework */,
+				9489B05B1EC297D40089CDF6 /* libcrypto.a */,
+				9489B05C1EC297D40089CDF6 /* libssl.a */,
+				9489B0571EC295960089CDF6 /* libcrypto.a */,
+				9489B0581EC295960089CDF6 /* libssl.a */,
+				723ED2F12F24289E90694DDF /* libPods-testIOS2.a */,
+				AA2A337BA6FE36FD70ABCAFB /* libPods-testIOS2Tests.a */,
+				E80C4C0DA4649B902842FF85 /* libPods-testIOS2UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9489B0621EC29D460089CDF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9489B0631EC29D460089CDF6 /* mapapi.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9489B0651EC29DC10089CDF6 /* Cluster */ = {
+			isa = PBXGroup;
+			children = (
+				9489B0661EC29DC10089CDF6 /* BMKClusterAlgorithm.h */,
+				9489B0671EC29DC10089CDF6 /* BMKClusterAlgorithm.m */,
+				9489B0681EC29DC10089CDF6 /* BMKClusterItem.h */,
+				9489B0691EC29DC10089CDF6 /* BMKClusterItem.m */,
+				9489B06A1EC29DC10089CDF6 /* BMKClusterManager.h */,
+				9489B06B1EC29DC10089CDF6 /* BMKClusterManager.m */,
+				9489B06C1EC29DC10089CDF6 /* BMKClusterQuadtree.h */,
+				9489B06D1EC29DC10089CDF6 /* BMKClusterQuadtree.m */,
+			);
+			name = Cluster;
+			path = ../Cluster;
+			sourceTree = "<group>";
+		};
+		9489B10E1EC2E2B00089CDF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9489B1121EC2E2B00089CDF6 /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9493AA181EDF7CAF00366036 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9493AA191EDF7CAF00366036 /* SWRevealViewController.h */,
+				9493AA1A1EDF7CAF00366036 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			path = ../SWRevealViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,13 +335,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9489B04D1EC2942B0089CDF6 /* Build configuration list for PBXNativeTarget "testIOS2" */;
 			buildPhases = (
+				D9C95A65D3C05AE8018E88A1 /* [CP] Check Pods Manifest.lock */,
 				9489B01C1EC2942B0089CDF6 /* Sources */,
 				9489B01D1EC2942B0089CDF6 /* Frameworks */,
 				9489B01E1EC2942B0089CDF6 /* Resources */,
+				0983121ACF98E3E270E2E13A /* [CP] Embed Pods Frameworks */,
+				774467BDB39CE3542BAF058B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9489B1161EC2E3EC0089CDF6 /* PBXTargetDependency */,
 			);
 			name = testIOS2;
 			productName = testIOS2;
@@ -164,9 +356,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9489B0501EC2942B0089CDF6 /* Build configuration list for PBXNativeTarget "testIOS2Tests" */;
 			buildPhases = (
+				75CBE7D4FF9E0E299AC886B3 /* [CP] Check Pods Manifest.lock */,
 				9489B0351EC2942B0089CDF6 /* Sources */,
 				9489B0361EC2942B0089CDF6 /* Frameworks */,
 				9489B0371EC2942B0089CDF6 /* Resources */,
+				CCD17E146AED071BFF2B1DE9 /* [CP] Embed Pods Frameworks */,
+				11038B752D20E71231874839 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +377,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9489B0531EC2942B0089CDF6 /* Build configuration list for PBXNativeTarget "testIOS2UITests" */;
 			buildPhases = (
+				88082BA6DD7618D720A2D7FD /* [CP] Check Pods Manifest.lock */,
 				9489B0401EC2942B0089CDF6 /* Sources */,
 				9489B0411EC2942B0089CDF6 /* Frameworks */,
 				9489B0421EC2942B0089CDF6 /* Resources */,
+				EE47CAF85F43274FFE068D2B /* [CP] Embed Pods Frameworks */,
+				A08A859051DA087B2171B2E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +433,12 @@
 			mainGroup = 9489B0171EC2942B0089CDF6;
 			productRefGroup = 9489B0211EC2942B0089CDF6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9489B10E1EC2E2B00089CDF6 /* Products */;
+					ProjectRef = 9489B1011EC2E2810089CDF6 /* CordovaLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9489B01F1EC2942B0089CDF6 /* testIOS2 */,
@@ -244,14 +448,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9489B1121EC2E2B00089CDF6 /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 9489B1111EC2E2B00089CDF6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		9489B01E1EC2942B0089CDF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9489B1081EC2E29A0089CDF6 /* www in Resources */,
+				9493AA241EDF85F900366036 /* LeftViewController.xib in Resources */,
+				94E809011EDAB4DD00E088FC /* imageView.png in Resources */,
+				9493AA1F1EDF7EBE00366036 /* reveal-icon@2x.png in Resources */,
+				9489B1141EC2E39A0089CDF6 /* config.xml in Resources */,
+				9493AA721EDF9B6500366036 /* user1.png in Resources */,
 				9489B0331EC2942B0089CDF6 /* LaunchScreen.storyboard in Resources */,
+				9493AAB51EE0025200366036 /* location.png in Resources */,
+				9489B0641EC29D460089CDF6 /* mapapi.bundle in Resources */,
+				9493AA741EDFA1A300366036 /* avatar.png in Resources */,
 				9489B0301EC2942B0089CDF6 /* Assets.xcassets in Resources */,
+				9489B1001EC2CF230089CDF6 /* UpView.xib in Resources */,
 				9489B02E1EC2942B0089CDF6 /* Main.storyboard in Resources */,
+				9489B1201EC2E4490089CDF6 /* CordovaViewController.xib in Resources */,
+				9493AA1E1EDF7EBE00366036 /* reveal-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +497,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0983121ACF98E3E270E2E13A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testIOS2/Pods-testIOS2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11038B752D20E71231874839 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testIOS2Tests/Pods-testIOS2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75CBE7D4FF9E0E299AC886B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		774467BDB39CE3542BAF058B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testIOS2/Pods-testIOS2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88082BA6DD7618D720A2D7FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A08A859051DA087B2171B2E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testIOS2UITests/Pods-testIOS2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD17E146AED071BFF2B1DE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testIOS2Tests/Pods-testIOS2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C95A65D3C05AE8018E88A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE47CAF85F43274FFE068D2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testIOS2UITests/Pods-testIOS2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9489B01C1EC2942B0089CDF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9489B02B1EC2942B0089CDF6 /* ViewController.m in Sources */,
-				9489B0281EC2942B0089CDF6 /* AppDelegate.m in Sources */,
+				9489B0281EC2942B0089CDF6 /* AppDelegate.mm in Sources */,
+				9489B0711EC29DC10089CDF6 /* BMKClusterQuadtree.m in Sources */,
+				9489B0FE1EC2CEE10089CDF6 /* UpView.m in Sources */,
+				9489B11F1EC2E4490089CDF6 /* CordovaViewController.m in Sources */,
 				9489B0251EC2942B0089CDF6 /* main.m in Sources */,
+				9489B06F1EC29DC10089CDF6 /* BMKClusterItem.m in Sources */,
+				9493AA1B1EDF7CAF00366036 /* SWRevealViewController.m in Sources */,
+				9493AA231EDF85F900366036 /* LeftViewController.m in Sources */,
+				9489B06E1EC29DC10089CDF6 /* BMKClusterAlgorithm.m in Sources */,
+				9489B0701EC29DC10089CDF6 /* BMKClusterManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +682,11 @@
 			isa = PBXTargetDependency;
 			target = 9489B01F1EC2942B0089CDF6 /* testIOS2 */;
 			targetProxy = 9489B0451EC2942B0089CDF6 /* PBXContainerItemProxy */;
+		};
+		9489B1161EC2E3EC0089CDF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 9489B1151EC2E3EC0089CDF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -427,30 +804,43 @@
 		};
 		9489B04E1EC2942B0089CDF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5947E8F83D573D0866D76571 /* Pods-testIOS2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EG38A8CGS3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = testIOS2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lixiang.yyfwptz.cgwx.testIOS2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgwx.lixiang.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		9489B04F1EC2942B0089CDF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE860C24B6FA090D1A5AE87 /* Pods-testIOS2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EG38A8CGS3;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = testIOS2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lixiang.yyfwptz.cgwx.testIOS2;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cgwx.lixiang.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		9489B0511EC2942B0089CDF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D139A5366C439E211C5B7654 /* Pods-testIOS2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = EG38A8CGS3;
@@ -464,6 +854,7 @@
 		};
 		9489B0521EC2942B0089CDF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228C94EABC01804FA3B00BEB /* Pods-testIOS2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = EG38A8CGS3;
@@ -477,6 +868,7 @@
 		};
 		9489B0541EC2942B0089CDF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB86FAECCB9CD96871EBD29 /* Pods-testIOS2UITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = EG38A8CGS3;
 				INFOPLIST_FILE = testIOS2UITests/Info.plist;
@@ -489,6 +881,7 @@
 		};
 		9489B0551EC2942B0089CDF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290A5835ECDC959A999148E2 /* Pods-testIOS2UITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = EG38A8CGS3;
 				INFOPLIST_FILE = testIOS2UITests/Info.plist;
@@ -518,6 +911,7 @@
 				9489B04F1EC2942B0089CDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9489B0501EC2942B0089CDF6 /* Build configuration list for PBXNativeTarget "testIOS2Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +920,7 @@
 				9489B0521EC2942B0089CDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9489B0531EC2942B0089CDF6 /* Build configuration list for PBXNativeTarget "testIOS2UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +929,7 @@
 				9489B0551EC2942B0089CDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "LeftViewController.h"
+#import "SWRevealViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _mapManager = [[BMKMapManager alloc]init];
+    BOOL ret = [_mapManager start:@"5pF4ggqRCKKVWoqGFqFbi308yWMU22aP"  generalDelegate:nil];
+    if (!ret) {
+        NSLog(@"manager start failed!");
+    }
+    [self.window addSubview:viewController.view];
+    [self.window makeKeyAndVisible];
+
+    ViewController *viewController = [[ViewController alloc] init];
+    LeftViewController *leftViewController = [[LeftViewController alloc] init];
+
+    UINavigationController *rearNavigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+
+    SWRevealViewController *revealViewController = [[SWRevealViewController alloc] initWithRearViewController:leftViewController frontViewController:rearNavigationController];
+
+    self.viewController = revealViewController;
+    self.window.rootViewController = self.viewController;
+
     return YES;
 }
 

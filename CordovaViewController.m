@@ -8,30 +8,89 @@
 
 #import "CordovaViewController.h"
 
-@interface CordovaViewController ()
+@implementation CordovaViewController
+
+- (id)initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle*)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Uncomment to override the CDVCommandDelegateImpl used
+        // _commandDelegate = [[MainCommandDelegate alloc] initWithViewController:self];
+        // Uncomment to override the CDVCommandQueue used
+        // _commandQueue = [[MainCommandQueue alloc] initWithViewController:self];
+    }
+    return self;
+}
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+        // Uncomment to override the CDVCommandDelegateImpl used
+        // _commandDelegate = [[MainCommandDelegate alloc] initWithViewController:self];
+        // Uncomment to override the CDVCommandQueue used
+        // _commandQueue = [[MainCommandQueue alloc] initWithViewController:self];
+    }
+    return self;
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+}
+
+#pragma mark View lifecycle
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+}
+
+#pragma mark UIWebDelegate implementation
+
+//- (void)webViewDidFinishLoad:(UIWebView*)theWebView
+//{
+//    theWebView.backgroundColor = [UIColor blackColor];
+//    
+//    return [super webViewDidFinishLoad:theWebView];
+//}
+
 
 @end
 
-@implementation CordovaViewController
+@implementation CordovaCommandDelegate
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+#pragma mark CDVCommandDelegate implementation
+
+- (id)getCommandInstance:(NSString*)className
+{
+    return [super getCommandInstance:className];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSString*)pathForResource:(NSString*)resourcepath
+{
+    return [super pathForResource:resourcepath];
 }
 
-/*
-#pragma mark - Navigation
+@end
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+@implementation CordovaCommandQueue
+
+- (BOOL)execute:(CDVInvokedUrlCommand*)command
+{
+    return [super execute:command];
 }
-*/
 
 @end

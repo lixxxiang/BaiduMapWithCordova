@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UpView : UIView
+@protocol viewDelegate<NSObject>
 
+-(void)showCordova;
+
+@end
+
+@interface UpView : UIView{
+
+    id<viewDelegate> delegate;
+}
+@property (strong, nonatomic) IBOutlet UIView *UpView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (nonatomic, strong) id <viewDelegate> delegate;
+@property (strong, nonatomic) IBOutlet UIButton *btn;
 @end

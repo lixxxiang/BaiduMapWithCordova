@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <BaiduMapAPI_Base/BMKBaseComponent.h>
+#import "SWRevealViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    UIWindow *window;
+    UIViewController *viewController;
+    BMKMapManager* _mapManager;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) SWRevealViewController *viewController;
 
 @end
 
