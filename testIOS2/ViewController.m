@@ -11,10 +11,11 @@
 #import "CordovaViewController.h"
 #import "UpView.h"
 #import "SWRevealViewController.h"
+#import "TaskReleaseView.h"
 #import <QuartzCore/QuartzCore.h>
 
 UpView *seekHelpView;
-
+TaskReleaseView *missionReleaseView;
 @interface ClusterAnnotation : BMKPointAnnotation
 
 ///所包含annotation个数
@@ -102,10 +103,14 @@ CALayer *imageLayer;
     /**
      * seek help view add
      */
-    seekHelpView = [[UpView alloc] initWithFrame:CGRectMake(0, 400, [UIScreen mainScreen].bounds.size.width, 290)];
-    seekHelpView.frame = CGRectMake(20, 540, [UIScreen mainScreen].bounds.size.width - 40, 200);
+    seekHelpView = [[UpView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 290, [UIScreen mainScreen].bounds.size.width, 190)];
+    seekHelpView.frame = CGRectMake(20, [UIScreen mainScreen].bounds.size.height - 190, [UIScreen mainScreen].bounds.size.width - 40, 190);
     seekHelpView.delegate = self;
 
+    missionReleaseView = [[TaskReleaseView alloc] initWithFrame:CGRectMake(0, 400, [UIScreen mainScreen].bounds.size.width, 250)];
+    missionReleaseView.frame = CGRectMake(20, self.navigationController.navigationBar.frame.size.height + 40, [UIScreen mainScreen].bounds.size.width - 40, 200);
+//    missionReleaseView.delegate = self;
+    missionReleaseView.hidden = YES;
     _clusterCaches = [[NSMutableArray alloc] init];
     for (NSInteger i = 3; i < 22; i++) {
         [_clusterCaches addObject:[NSMutableArray array]];
@@ -118,7 +123,7 @@ CALayer *imageLayer;
     _mapView = [[BMKMapView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
     [self.view addSubview:_mapView];
     [self.view addSubview:seekHelpView];
-
+    [self.view addSubview:missionReleaseView];
 //    UIImage *image = [UIImage imageNamed:@"location"];
 //    UIImageView *locate =[[UIImageView alloc] initWithFrame:CGRectMake([[UIScreen mainScreen] bounds].size.width/2 - 15, [[UIScreen mainScreen] bounds].size.height/2 - 15, 30, 30)];
 //    locate.image = image;
@@ -156,6 +161,11 @@ CALayer *imageLayer;
     imageLayer.frame = CGRectMake([[UIScreen mainScreen] bounds].size.width/2 - 15, [[UIScreen mainScreen] bounds].size.height/2 - 15, 30, 30);
     imageLayer.contents = (id)[[UIImage imageNamed:@"location"] CGImage];
     [self.view.layer addSublayer:imageLayer];
+    
+    
+    
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -205,6 +215,13 @@ CALayer *imageLayer;
     [self presentViewController:cordovaViewController animated:YES completion:nil];
 }
 
+-(void)showTask {
+    seekHelpView.hidden = YES;
+    missionReleaseView.hidden = NO;
+    imageLayer.hidden = YES;
+    _locService.delegate = nil;
+}
+
 
 //// 根据anntation生成对应的View
 //- (BMKAnnotationView *)mapView:(BMKMapView *)mapView viewForAnnotation:(id <BMKAnnotation>)annotation
@@ -240,15 +257,6 @@ CALayer *imageLayer;
 //    [_mapView addAnnotation:annotation];
 //    seekHelpView.hidden = NO;
 
-    CGPoint fromPoint = imageLayer.position;
-    CGPoint toPoint = CGPointMake(fromPoint.x  , fromPoint.y - 10);
-    CABasicAnimation* anim = [CABasicAnimation animationWithKeyPath:@"position"];
-    anim.fromValue = [NSValue valueWithCGPoint:fromPoint];
-    anim.toValue = [NSValue valueWithCGPoint:toPoint];
-    anim.duration = 0.1;
-    imageLayer.position = fromPoint;
-    anim.removedOnCompletion = YES;
-    [imageLayer addAnimation:anim forKey:nil];
 }
 
 

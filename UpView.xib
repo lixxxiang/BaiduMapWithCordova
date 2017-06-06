@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="UpView" destination="iN0-l3-epB" id="evc-M2-pph"/>
                 <outlet property="btn" destination="xjE-jt-EFS" id="6qB-z1-18s"/>
+                <outlet property="btn2" destination="DKH-I9-Bd5" id="116-2C-nUg"/>
                 <outlet property="imageView" destination="tA2-Hg-gLA" id="IaN-fK-58Y"/>
             </connections>
         </placeholder>
@@ -30,6 +31,11 @@
                     <rect key="frame" x="128" y="20" width="99" height="99"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKH-I9-Bd5">
+                    <rect key="frame" x="240" y="20" width="98" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="模拟周边求助"/>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <nil key="simulatedStatusBarMetrics"/>

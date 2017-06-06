@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		2311FE0032CEBC8DEDE61FAD /* libPods-testIOS2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E80C4C0DA4649B902842FF85 /* libPods-testIOS2UITests.a */; };
 		6BB713445406C5E948BA27FB /* libPods-testIOS2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2A337BA6FE36FD70ABCAFB /* libPods-testIOS2Tests.a */; };
+		944389DC1EE52096009BE563 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 944389DB1EE52096009BE563 /* www */; };
+		944389DE1EE53CF5009BE563 /* TaskReleaseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944389DD1EE53CF5009BE563 /* TaskReleaseView.xib */; };
+		944389E11EE53D23009BE563 /* TaskReleaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389E01EE53D23009BE563 /* TaskReleaseView.m */; };
+		944389F91EE54536009BE563 /* JFAreaDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389E51EE54536009BE563 /* JFAreaDataManager.m */; };
+		944389FA1EE54536009BE563 /* shop_area.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 944389E71EE54536009BE563 /* shop_area.sqlite */; };
+		944389FB1EE54536009BE563 /* JFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389E91EE54536009BE563 /* JFButton.m */; };
+		944389FC1EE54536009BE563 /* JFCityCollectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389EB1EE54536009BE563 /* JFCityCollectionFlowLayout.m */; };
+		944389FD1EE54536009BE563 /* JFCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389ED1EE54536009BE563 /* JFCityCollectionViewCell.m */; };
+		944389FE1EE54536009BE563 /* JFCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389EF1EE54536009BE563 /* JFCityHeaderView.m */; };
+		944389FF1EE54536009BE563 /* JFCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389F11EE54536009BE563 /* JFCityTableViewCell.m */; };
+		94438A001EE54536009BE563 /* JFCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389F31EE54536009BE563 /* JFCityViewController.m */; };
+		94438A011EE54536009BE563 /* JFSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389F51EE54536009BE563 /* JFSearchView.m */; };
+		94438A021EE54536009BE563 /* JFLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389F81EE54536009BE563 /* JFLocation.m */; };
 		9489B0251EC2942B0089CDF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0241EC2942B0089CDF6 /* main.m */; };
 		9489B0281EC2942B0089CDF6 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0271EC2942B0089CDF6 /* AppDelegate.mm */; };
 		9489B02B1EC2942B0089CDF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B02A1EC2942B0089CDF6 /* ViewController.m */; };
@@ -26,7 +39,6 @@
 		9489B0711EC29DC10089CDF6 /* BMKClusterQuadtree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B06D1EC29DC10089CDF6 /* BMKClusterQuadtree.m */; };
 		9489B0FE1EC2CEE10089CDF6 /* UpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0FD1EC2CEE10089CDF6 /* UpView.m */; };
 		9489B1001EC2CF230089CDF6 /* UpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9489B0FF1EC2CF230089CDF6 /* UpView.xib */; };
-		9489B1081EC2E29A0089CDF6 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 9489B1071EC2E29A0089CDF6 /* www */; };
 		9489B1141EC2E39A0089CDF6 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9489B1131EC2E39A0089CDF6 /* config.xml */; };
 		9489B1171EC2E4070089CDF6 /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9489B1121EC2E2B00089CDF6 /* libCordova.a */; };
 		9489B1191EC2E4110089CDF6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9489B1181EC2E4110089CDF6 /* MobileCoreServices.framework */; };
@@ -81,6 +93,29 @@
 		290A5835ECDC959A999148E2 /* Pods-testIOS2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIOS2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testIOS2UITests/Pods-testIOS2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		5947E8F83D573D0866D76571 /* Pods-testIOS2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testIOS2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testIOS2/Pods-testIOS2.debug.xcconfig"; sourceTree = "<group>"; };
 		723ED2F12F24289E90694DDF /* libPods-testIOS2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testIOS2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944389DB1EE52096009BE563 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		944389DD1EE53CF5009BE563 /* TaskReleaseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TaskReleaseView.xib; path = ../TaskReleaseView.xib; sourceTree = "<group>"; };
+		944389DF1EE53D23009BE563 /* TaskReleaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskReleaseView.h; path = ../TaskReleaseView.h; sourceTree = "<group>"; };
+		944389E01EE53D23009BE563 /* TaskReleaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskReleaseView.m; path = ../TaskReleaseView.m; sourceTree = "<group>"; };
+		944389E41EE54536009BE563 /* JFAreaDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAreaDataManager.h; sourceTree = "<group>"; };
+		944389E51EE54536009BE563 /* JFAreaDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAreaDataManager.m; sourceTree = "<group>"; };
+		944389E71EE54536009BE563 /* shop_area.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = shop_area.sqlite; sourceTree = "<group>"; };
+		944389E81EE54536009BE563 /* JFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFButton.h; sourceTree = "<group>"; };
+		944389E91EE54536009BE563 /* JFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFButton.m; sourceTree = "<group>"; };
+		944389EA1EE54536009BE563 /* JFCityCollectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityCollectionFlowLayout.h; sourceTree = "<group>"; };
+		944389EB1EE54536009BE563 /* JFCityCollectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityCollectionFlowLayout.m; sourceTree = "<group>"; };
+		944389EC1EE54536009BE563 /* JFCityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityCollectionViewCell.h; sourceTree = "<group>"; };
+		944389ED1EE54536009BE563 /* JFCityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityCollectionViewCell.m; sourceTree = "<group>"; };
+		944389EE1EE54536009BE563 /* JFCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityHeaderView.h; sourceTree = "<group>"; };
+		944389EF1EE54536009BE563 /* JFCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityHeaderView.m; sourceTree = "<group>"; };
+		944389F01EE54536009BE563 /* JFCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityTableViewCell.h; sourceTree = "<group>"; };
+		944389F11EE54536009BE563 /* JFCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityTableViewCell.m; sourceTree = "<group>"; };
+		944389F21EE54536009BE563 /* JFCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCityViewController.h; sourceTree = "<group>"; };
+		944389F31EE54536009BE563 /* JFCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCityViewController.m; sourceTree = "<group>"; };
+		944389F41EE54536009BE563 /* JFSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFSearchView.h; sourceTree = "<group>"; };
+		944389F51EE54536009BE563 /* JFSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSearchView.m; sourceTree = "<group>"; };
+		944389F71EE54536009BE563 /* JFLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLocation.h; sourceTree = "<group>"; };
+		944389F81EE54536009BE563 /* JFLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLocation.m; sourceTree = "<group>"; };
 		9489B0201EC2942B0089CDF6 /* testIOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testIOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9489B0241EC2942B0089CDF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9489B0261EC2942B0089CDF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,7 +149,6 @@
 		9489B0FD1EC2CEE10089CDF6 /* UpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpView.m; path = ../UpView.m; sourceTree = "<group>"; };
 		9489B0FF1EC2CF230089CDF6 /* UpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UpView.xib; path = ../UpView.xib; sourceTree = "<group>"; };
 		9489B1011EC2E2810089CDF6 /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
-		9489B1071EC2E29A0089CDF6 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		9489B1131EC2E39A0089CDF6 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
 		9489B1181EC2E4110089CDF6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		9489B11A1EC2E41A0089CDF6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -185,11 +219,61 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		944389E21EE54536009BE563 /* JFCityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				944389E31EE54536009BE563 /* AreaDataManager */,
+				944389E61EE54536009BE563 /* AreaDB */,
+				944389E81EE54536009BE563 /* JFButton.h */,
+				944389E91EE54536009BE563 /* JFButton.m */,
+				944389EA1EE54536009BE563 /* JFCityCollectionFlowLayout.h */,
+				944389EB1EE54536009BE563 /* JFCityCollectionFlowLayout.m */,
+				944389EC1EE54536009BE563 /* JFCityCollectionViewCell.h */,
+				944389ED1EE54536009BE563 /* JFCityCollectionViewCell.m */,
+				944389EE1EE54536009BE563 /* JFCityHeaderView.h */,
+				944389EF1EE54536009BE563 /* JFCityHeaderView.m */,
+				944389F01EE54536009BE563 /* JFCityTableViewCell.h */,
+				944389F11EE54536009BE563 /* JFCityTableViewCell.m */,
+				944389F21EE54536009BE563 /* JFCityViewController.h */,
+				944389F31EE54536009BE563 /* JFCityViewController.m */,
+				944389F41EE54536009BE563 /* JFSearchView.h */,
+				944389F51EE54536009BE563 /* JFSearchView.m */,
+				944389F61EE54536009BE563 /* Location */,
+			);
+			path = JFCityViewController;
+			sourceTree = "<group>";
+		};
+		944389E31EE54536009BE563 /* AreaDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				944389E41EE54536009BE563 /* JFAreaDataManager.h */,
+				944389E51EE54536009BE563 /* JFAreaDataManager.m */,
+			);
+			path = AreaDataManager;
+			sourceTree = "<group>";
+		};
+		944389E61EE54536009BE563 /* AreaDB */ = {
+			isa = PBXGroup;
+			children = (
+				944389E71EE54536009BE563 /* shop_area.sqlite */,
+			);
+			path = AreaDB;
+			sourceTree = "<group>";
+		};
+		944389F61EE54536009BE563 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				944389F71EE54536009BE563 /* JFLocation.h */,
+				944389F81EE54536009BE563 /* JFLocation.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
 		9489B0171EC2942B0089CDF6 = {
 			isa = PBXGroup;
 			children = (
+				944389DB1EE52096009BE563 /* www */,
 				9489B1131EC2E39A0089CDF6 /* config.xml */,
-				9489B1071EC2E29A0089CDF6 /* www */,
 				9489B0621EC29D460089CDF6 /* Resources */,
 				9489B0221EC2942B0089CDF6 /* testIOS2 */,
 				9489B03C1EC2942B0089CDF6 /* testIOS2Tests */,
@@ -213,11 +297,15 @@
 		9489B0221EC2942B0089CDF6 /* testIOS2 */ = {
 			isa = PBXGroup;
 			children = (
+				944389E21EE54536009BE563 /* JFCityViewController */,
 				9493AA181EDF7CAF00366036 /* SWRevealViewController */,
 				9489B0651EC29DC10089CDF6 /* Cluster */,
 				9489B1011EC2E2810089CDF6 /* CordovaLib.xcodeproj */,
 				9489B0261EC2942B0089CDF6 /* AppDelegate.h */,
 				9489B0271EC2942B0089CDF6 /* AppDelegate.mm */,
+				944389DD1EE53CF5009BE563 /* TaskReleaseView.xib */,
+				944389DF1EE53D23009BE563 /* TaskReleaseView.h */,
+				944389E01EE53D23009BE563 /* TaskReleaseView.m */,
 				9489B0FF1EC2CF230089CDF6 /* UpView.xib */,
 				9489B0FC1EC2CEE10089CDF6 /* UpView.h */,
 				9489B0FD1EC2CEE10089CDF6 /* UpView.m */,
@@ -463,10 +551,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9489B1081EC2E29A0089CDF6 /* www in Resources */,
 				9493AA241EDF85F900366036 /* LeftViewController.xib in Resources */,
 				94E809011EDAB4DD00E088FC /* imageView.png in Resources */,
 				9493AA1F1EDF7EBE00366036 /* reveal-icon@2x.png in Resources */,
+				944389DE1EE53CF5009BE563 /* TaskReleaseView.xib in Resources */,
+				944389DC1EE52096009BE563 /* www in Resources */,
 				9489B1141EC2E39A0089CDF6 /* config.xml in Resources */,
 				9493AA721EDF9B6500366036 /* user1.png in Resources */,
 				9489B0331EC2942B0089CDF6 /* LaunchScreen.storyboard in Resources */,
@@ -474,6 +563,7 @@
 				9489B0641EC29D460089CDF6 /* mapapi.bundle in Resources */,
 				9493AA741EDFA1A300366036 /* avatar.png in Resources */,
 				9489B0301EC2942B0089CDF6 /* Assets.xcassets in Resources */,
+				944389FA1EE54536009BE563 /* shop_area.sqlite in Resources */,
 				9489B1001EC2CF230089CDF6 /* UpView.xib in Resources */,
 				9489B02E1EC2942B0089CDF6 /* Main.storyboard in Resources */,
 				9489B1201EC2E4490089CDF6 /* CordovaViewController.xib in Resources */,
@@ -640,17 +730,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944389FF1EE54536009BE563 /* JFCityTableViewCell.m in Sources */,
 				9489B02B1EC2942B0089CDF6 /* ViewController.m in Sources */,
 				9489B0281EC2942B0089CDF6 /* AppDelegate.mm in Sources */,
 				9489B0711EC29DC10089CDF6 /* BMKClusterQuadtree.m in Sources */,
+				94438A001EE54536009BE563 /* JFCityViewController.m in Sources */,
 				9489B0FE1EC2CEE10089CDF6 /* UpView.m in Sources */,
+				94438A011EE54536009BE563 /* JFSearchView.m in Sources */,
+				944389FC1EE54536009BE563 /* JFCityCollectionFlowLayout.m in Sources */,
+				944389FD1EE54536009BE563 /* JFCityCollectionViewCell.m in Sources */,
+				944389FE1EE54536009BE563 /* JFCityHeaderView.m in Sources */,
 				9489B11F1EC2E4490089CDF6 /* CordovaViewController.m in Sources */,
 				9489B0251EC2942B0089CDF6 /* main.m in Sources */,
+				944389F91EE54536009BE563 /* JFAreaDataManager.m in Sources */,
+				94438A021EE54536009BE563 /* JFLocation.m in Sources */,
 				9489B06F1EC29DC10089CDF6 /* BMKClusterItem.m in Sources */,
 				9493AA1B1EDF7CAF00366036 /* SWRevealViewController.m in Sources */,
 				9493AA231EDF85F900366036 /* LeftViewController.m in Sources */,
 				9489B06E1EC29DC10089CDF6 /* BMKClusterAlgorithm.m in Sources */,
+				944389FB1EE54536009BE563 /* JFButton.m in Sources */,
 				9489B0701EC29DC10089CDF6 /* BMKClusterManager.m in Sources */,
+				944389E11EE53D23009BE563 /* TaskReleaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
