@@ -11,9 +11,10 @@
 #import <BaiduMapAPI_Location/BMKLocationComponent.h>
 #import <BaiduMapAPI_Utils/BMKUtilsComponent.h>
 #import "UpView.h"
+#import "TaskReleaseView.h"
 
 
-@interface ViewController : UIViewController <viewDelegate, BMKMapViewDelegate, BMKLocationServiceDelegate> {
+@interface ViewController : UIViewController <viewDelegate, BMKMapViewDelegate, BMKLocationServiceDelegate, missionDelegate> {
     BMKMapView *_mapView;
     BMKLocationService *_locService;
     ViewController *_viewController;

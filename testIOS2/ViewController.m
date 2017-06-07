@@ -12,10 +12,13 @@
 #import "UpView.h"
 #import "SWRevealViewController.h"
 #import "TaskReleaseView.h"
+#import "TipsView.h"
 #import <QuartzCore/QuartzCore.h>
 
 UpView *seekHelpView;
 TaskReleaseView *missionReleaseView;
+TipsView *tipsView;
+
 @interface ClusterAnnotation : BMKPointAnnotation
 
 ///所包含annotation个数
@@ -85,7 +88,7 @@ TaskReleaseView *missionReleaseView;
 
 @end
 
-@interface ViewController () {
+@interface ViewController (){
     BMKClusterManager *_clusterManager;
     NSInteger _clusterZoom;//聚合级别
     NSMutableArray *_clusterCaches;//点聚合缓存标注
@@ -109,8 +112,12 @@ CALayer *imageLayer;
 
     missionReleaseView = [[TaskReleaseView alloc] initWithFrame:CGRectMake(0, 400, [UIScreen mainScreen].bounds.size.width, 250)];
     missionReleaseView.frame = CGRectMake(20, self.navigationController.navigationBar.frame.size.height + 40, [UIScreen mainScreen].bounds.size.width - 40, 200);
-//    missionReleaseView.delegate = self;
     missionReleaseView.hidden = YES;
+
+    tipsView = [[TipsView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 290, [UIScreen mainScreen].bounds.size.width, 190)];
+    tipsView.frame = CGRectMake(20, [UIScreen mainScreen].bounds.size.height - 105, [UIScreen mainScreen].bounds.size.width - 40, 85);
+    tipsView.hidden = YES;
+
     _clusterCaches = [[NSMutableArray alloc] init];
     for (NSInteger i = 3; i < 22; i++) {
         [_clusterCaches addObject:[NSMutableArray array]];
@@ -124,6 +131,7 @@ CALayer *imageLayer;
     [self.view addSubview:_mapView];
     [self.view addSubview:seekHelpView];
     [self.view addSubview:missionReleaseView];
+    [self.view addSubview:tipsView];
 //    UIImage *image = [UIImage imageNamed:@"location"];
 //    UIImageView *locate =[[UIImageView alloc] initWithFrame:CGRectMake([[UIScreen mainScreen] bounds].size.width/2 - 15, [[UIScreen mainScreen] bounds].size.height/2 - 15, 30, 30)];
 //    locate.image = image;
@@ -167,6 +175,7 @@ CALayer *imageLayer;
     
     
 }
+
 
 - (void)viewWillAppear:(BOOL)animated {
     [_mapView viewWillAppear];
@@ -215,14 +224,34 @@ CALayer *imageLayer;
     [self presentViewController:cordovaViewController animated:YES completion:nil];
 }
 
--(void)showTask {
+- (void)showTask {
     seekHelpView.hidden = YES;
     missionReleaseView.hidden = NO;
     imageLayer.hidden = YES;
-    _locService.delegate = nil;
+    [_locService stopUserLocationService];
+    _mapView.showsUserLocation = NO;
+    tipsView.hidden = NO;
 }
 
+- (void)describeInfo
+{
+    NSLog(@"SSS");
+}
 
+- (void)showLocation
+{
+    
+}
+
+-(void)showTime
+{
+    
+}
+
+-(void)fee
+{
+    
+}
 //// 根据anntation生成对应的View
 //- (BMKAnnotationView *)mapView:(BMKMapView *)mapView viewForAnnotation:(id <BMKAnnotation>)annotation
 //{

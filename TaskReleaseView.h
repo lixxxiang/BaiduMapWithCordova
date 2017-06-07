@@ -8,19 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-//@protocol viewDelegate<NSObject>
-//
-//-(void)test;
-//
-//@end
-//
+@protocol missionDelegate<NSObject>
+
+-(void)describeInfo;
+-(void)showLocation;
+-(void)showTime;
+-(void)fee;
+
+@end
+
 @interface TaskReleaseView : UIView<UITableViewDelegate, UITableViewDataSource>
-//{
-//    id<viewDelegate> delegate;
-//}
+{
+    id<missionDelegate> missionDelegate;
+}
 
 @property (strong, nonatomic) IBOutlet UITableView *missionReleaseTableView;
 @property (strong, nonatomic) IBOutlet UIView *taskReleaseView;
 @property (strong, nonatomic) NSArray *infos;
-//@property (strong, nonatomic) id <viewDelegate> delegate;
+@property (strong, nonatomic) id <missionDelegate> missionDelegate;
 @end

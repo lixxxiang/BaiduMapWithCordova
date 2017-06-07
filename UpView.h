@@ -12,6 +12,7 @@
 
 -(void)showCordova;
 -(void)showTask;
+
 @end
 
 @interface UpView : UIView{

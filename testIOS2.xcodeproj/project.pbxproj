@@ -22,6 +22,8 @@
 		94438A001EE54536009BE563 /* JFCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389F31EE54536009BE563 /* JFCityViewController.m */; };
 		94438A011EE54536009BE563 /* JFSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389F51EE54536009BE563 /* JFSearchView.m */; };
 		94438A021EE54536009BE563 /* JFLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 944389F81EE54536009BE563 /* JFLocation.m */; };
+		94478CEE1EE786E200E16DED /* TipsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94478CED1EE786E200E16DED /* TipsView.xib */; };
+		94478CF11EE786FA00E16DED /* TipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94478CF01EE786FA00E16DED /* TipsView.m */; };
 		9489B0251EC2942B0089CDF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0241EC2942B0089CDF6 /* main.m */; };
 		9489B0281EC2942B0089CDF6 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9489B0271EC2942B0089CDF6 /* AppDelegate.mm */; };
 		9489B02B1EC2942B0089CDF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9489B02A1EC2942B0089CDF6 /* ViewController.m */; };
@@ -116,6 +118,9 @@
 		944389F51EE54536009BE563 /* JFSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFSearchView.m; sourceTree = "<group>"; };
 		944389F71EE54536009BE563 /* JFLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFLocation.h; sourceTree = "<group>"; };
 		944389F81EE54536009BE563 /* JFLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFLocation.m; sourceTree = "<group>"; };
+		94478CED1EE786E200E16DED /* TipsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TipsView.xib; path = ../TipsView.xib; sourceTree = "<group>"; };
+		94478CEF1EE786FA00E16DED /* TipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TipsView.h; path = ../TipsView.h; sourceTree = "<group>"; };
+		94478CF01EE786FA00E16DED /* TipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TipsView.m; path = ../TipsView.m; sourceTree = "<group>"; };
 		9489B0201EC2942B0089CDF6 /* testIOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testIOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9489B0241EC2942B0089CDF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9489B0261EC2942B0089CDF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -297,24 +302,17 @@
 		9489B0221EC2942B0089CDF6 /* testIOS2 */ = {
 			isa = PBXGroup;
 			children = (
+				94FCA29E1EE7A78E00156A97 /* Left */,
+				94FCA29D1EE7A78000156A97 /* Cordova */,
+				94FCA29C1EE7A77600156A97 /* Up */,
+				94FCA29B1EE7A76700156A97 /* Tips */,
+				94FCA29A1EE7A74C00156A97 /* TaskRelease */,
 				944389E21EE54536009BE563 /* JFCityViewController */,
 				9493AA181EDF7CAF00366036 /* SWRevealViewController */,
 				9489B0651EC29DC10089CDF6 /* Cluster */,
 				9489B1011EC2E2810089CDF6 /* CordovaLib.xcodeproj */,
 				9489B0261EC2942B0089CDF6 /* AppDelegate.h */,
 				9489B0271EC2942B0089CDF6 /* AppDelegate.mm */,
-				944389DD1EE53CF5009BE563 /* TaskReleaseView.xib */,
-				944389DF1EE53D23009BE563 /* TaskReleaseView.h */,
-				944389E01EE53D23009BE563 /* TaskReleaseView.m */,
-				9489B0FF1EC2CF230089CDF6 /* UpView.xib */,
-				9489B0FC1EC2CEE10089CDF6 /* UpView.h */,
-				9489B0FD1EC2CEE10089CDF6 /* UpView.m */,
-				9493AA201EDF85F900366036 /* LeftViewController.h */,
-				9493AA211EDF85F900366036 /* LeftViewController.m */,
-				9493AA221EDF85F900366036 /* LeftViewController.xib */,
-				9489B11C1EC2E4490089CDF6 /* CordovaViewController.h */,
-				9489B11D1EC2E4490089CDF6 /* CordovaViewController.m */,
-				9489B11E1EC2E4490089CDF6 /* CordovaViewController.xib */,
 				9489B0291EC2942B0089CDF6 /* ViewController.h */,
 				9489B02A1EC2942B0089CDF6 /* ViewController.m */,
 				9489B02C1EC2942B0089CDF6 /* Main.storyboard */,
@@ -414,6 +412,56 @@
 			);
 			name = SWRevealViewController;
 			path = ../SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		94FCA29A1EE7A74C00156A97 /* TaskRelease */ = {
+			isa = PBXGroup;
+			children = (
+				944389DD1EE53CF5009BE563 /* TaskReleaseView.xib */,
+				944389DF1EE53D23009BE563 /* TaskReleaseView.h */,
+				944389E01EE53D23009BE563 /* TaskReleaseView.m */,
+			);
+			name = TaskRelease;
+			sourceTree = "<group>";
+		};
+		94FCA29B1EE7A76700156A97 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				94478CEF1EE786FA00E16DED /* TipsView.h */,
+				94478CF01EE786FA00E16DED /* TipsView.m */,
+				94478CED1EE786E200E16DED /* TipsView.xib */,
+			);
+			name = Tips;
+			sourceTree = "<group>";
+		};
+		94FCA29C1EE7A77600156A97 /* Up */ = {
+			isa = PBXGroup;
+			children = (
+				9489B0FF1EC2CF230089CDF6 /* UpView.xib */,
+				9489B0FC1EC2CEE10089CDF6 /* UpView.h */,
+				9489B0FD1EC2CEE10089CDF6 /* UpView.m */,
+			);
+			name = Up;
+			sourceTree = "<group>";
+		};
+		94FCA29D1EE7A78000156A97 /* Cordova */ = {
+			isa = PBXGroup;
+			children = (
+				9489B11C1EC2E4490089CDF6 /* CordovaViewController.h */,
+				9489B11D1EC2E4490089CDF6 /* CordovaViewController.m */,
+				9489B11E1EC2E4490089CDF6 /* CordovaViewController.xib */,
+			);
+			name = Cordova;
+			sourceTree = "<group>";
+		};
+		94FCA29E1EE7A78E00156A97 /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				9493AA201EDF85F900366036 /* LeftViewController.h */,
+				9493AA211EDF85F900366036 /* LeftViewController.m */,
+				9493AA221EDF85F900366036 /* LeftViewController.xib */,
+			);
+			name = Left;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -565,6 +613,7 @@
 				9489B0301EC2942B0089CDF6 /* Assets.xcassets in Resources */,
 				944389FA1EE54536009BE563 /* shop_area.sqlite in Resources */,
 				9489B1001EC2CF230089CDF6 /* UpView.xib in Resources */,
+				94478CEE1EE786E200E16DED /* TipsView.xib in Resources */,
 				9489B02E1EC2942B0089CDF6 /* Main.storyboard in Resources */,
 				9489B1201EC2E4490089CDF6 /* CordovaViewController.xib in Resources */,
 				9493AA1E1EDF7EBE00366036 /* reveal-icon.png in Resources */,
@@ -732,6 +781,7 @@
 			files = (
 				944389FF1EE54536009BE563 /* JFCityTableViewCell.m in Sources */,
 				9489B02B1EC2942B0089CDF6 /* ViewController.m in Sources */,
+				94478CF11EE786FA00E16DED /* TipsView.m in Sources */,
 				9489B0281EC2942B0089CDF6 /* AppDelegate.mm in Sources */,
 				9489B0711EC29DC10089CDF6 /* BMKClusterQuadtree.m in Sources */,
 				94438A001EE54536009BE563 /* JFCityViewController.m in Sources */,
